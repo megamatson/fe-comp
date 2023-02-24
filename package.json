@@ -2,6 +2,7 @@
   "name": "fe-comp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://megamatson.github.io/fe-comp",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -26,7 +27,13 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "indent": [
+        "error",
+        "tab"
+      ]
+    }
   },
   "browserslist": {
     "production": [
