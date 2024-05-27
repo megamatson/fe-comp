@@ -27,13 +27,13 @@ export const Fates: GameInfo = {
 			maxRank: 'A',
 		},
 		{
-			characters: ['Corrin (M)', 'Takumi'],
+			characters: ['Corrin (M)', 'Saizo'],
 			maxRank: 'A',
 		},
 		{
-			characters: ['Corrim (M)', 'Saizo'],
+			characters: ['Corrin (M)', 'Takumi'],
 			maxRank: 'A',
-		}
+		},
 	]
 } as const;
 
